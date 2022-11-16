@@ -29,4 +29,8 @@ public class TestDataBild {
 		
 		return ap;
 	}
+	
+	public String deletePlacePayload (String placeID) {
+		return "{\r\n \"place_id\":\""+placeID+"\"\r\n}";
+	}
 }
